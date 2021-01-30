@@ -8,7 +8,7 @@ export default (props) => {
     console.warn(props)
 
     return (
-        <Text style={defaultStyle.fontL}>
+        <Text style={defaultStyle.fontM}>
             O número {props.max} é maior que {props.min}
         </Text>
     )
